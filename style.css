@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.filme-cartaz {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Imagem */
+.capa-filme {
+    width: 100%;
+    border: 5px solid #ff4d6d;
+    border-radius: 10px;
+}
+
+/* Informações */
+.info-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.info-filme {
+    text-align: left;
+}
+
+.info-filme h1 {
+    font-size: 22px;
+    margin: 0;
+}
+
+.info-filme p {
+    margin: 8px 0;
+}
+
+/* Faixa Etária */
+.classificacao {
+    background-color: #ff4d6d;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Botão */
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ff4d6d;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #d63357;
+    transform: scale(1.05);
+}
